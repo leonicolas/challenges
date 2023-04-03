@@ -4,7 +4,7 @@ window.loadRefImage = (imageUrl) => {
         const container = document.createElement("div");
         container.innerHTML = `
         <style>
-            img.ref-image { position: absolute; z-index: -999; }
+            img.ref-image { position: absolute; z-index: 10; }
             img.ref-image.hide-image { display: none; }
             input#ref-image-opacity { position: relative; top: 8px;}
             .ref-image-controls { position: absolute; right: 20px; }
