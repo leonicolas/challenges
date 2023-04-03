@@ -1,5 +1,5 @@
 
-function loadRefImage(imageUrl) {
+window.loadRefImage = (imageUrl) => {
 
     function addRefImage(imageUrl) {
         const container = document.createElement("div");
